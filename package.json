@@ -1,6 +1,6 @@
 {
   "name": "claude-config-doctor",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "module": "index.ts",
   "private": false,
   "description": "Extra diagnostics and autofixes for common community-reported Claude Code configuration pitfalls.",
