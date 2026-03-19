@@ -1,0 +1,46 @@
+{
+  "name": "claude-config-doctor",
+  "version": "0.2.2",
+  "module": "index.ts",
+  "private": false,
+  "description": "Extra diagnostics and autofixes for common community-reported Claude Code configuration pitfalls.",
+  "bin": {
+    "claude-config-doctor": "bin/cli.js"
+  },
+  "type": "module",
+  "scripts": {
+    "init": "bun run bin/cli.js init",
+    "check": "bun run bin/cli.js check",
+    "fix": "bun run bin/cli.js fix",
+    "test": "bun test",
+    "lint": "biome check .",
+    "format": "biome format --write .",
+    "prepare": "husky install"
+  },
+  "keywords": [
+    "claude",
+    "config",
+    "doctor",
+    "diagnostics",
+    "openrouter"
+  ],
+  "author": "mirogta",
+  "license": "MIT",
+  "dependencies": {
+    "ajv": "^8.18.0",
+    "ajv-formats": "^3.0.1",
+    "chalk": "^5.3.0",
+    "inquirer": "^13.3.2",
+    "node-fetch": "^3.3.2",
+    "yargs": "^18.0.0"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^2.4.8",
+    "@types/bun": "latest",
+    "husky": "^8.0.0",
+    "vitest": "^4.1.0"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  }
+}

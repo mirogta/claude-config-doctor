@@ -1,0 +1,39 @@
+name: Bug Report
+description: Report a bug to help us improve.
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to report a bug! Please fill out the information below.
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: A clear and concise description of what the bug is.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Reproduction Steps
+      description: Steps to recreate the issue.
+      placeholder: |
+        1. Run `npx claude-config-doctor check`
+        2. Observer error...
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected Behavior
+      description: What should happen instead.
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Environment Info
+      description: OS version, Bun/Node version, etc.
+    validations:
+      required: true
