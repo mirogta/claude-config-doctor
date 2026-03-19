@@ -1,7 +1,7 @@
 # Claude Config Doctor 🩺
 
 [![CI Status](https://github.com/mirogta/claude-config-doctor/actions/workflows/ci.yml/badge.svg)](https://github.com/mirogta/claude-config-doctor/actions)
-[![License: MIT](https://img.shields.io/github/license/mirogta/claude-config-doctor)](LICENSE)
+[![License](https://img.shields.io/github/license/mirogta/claude-config-doctor)](https://github.com/mirogta/claude-config-doctor/blob/main/LICENSE)
 [![npm version](https://img.shields.io/npm/v/claude-config-doctor)](https://www.npmjs.com/package/claude-config-doctor)
 
 An **extra diagnostic tool** designed specifically to find and fix common community-reported pitfalls in Claude Code configuration files. It acts as a specialized extension to the built-in Claude doctor.

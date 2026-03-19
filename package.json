@@ -1,6 +1,6 @@
 {
   "name": "claude-config-doctor",
-  "version": "0.2.2",
+  "version": "0.2.6",
   "module": "index.ts",
   "private": false,
   "description": "Extra diagnostics and autofixes for common community-reported Claude Code configuration pitfalls.",
@@ -26,6 +26,14 @@
   ],
   "author": "mirogta",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mirogta/claude-config-doctor.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mirogta/claude-config-doctor/issues"
+  },
+  "homepage": "https://github.com/mirogta/claude-config-doctor",
   "dependencies": {
     "ajv": "^8.18.0",
     "ajv-formats": "^3.0.1",
